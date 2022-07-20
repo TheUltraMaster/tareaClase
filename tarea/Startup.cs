@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Builder;
 
 namespace tarea
 {
@@ -24,7 +24,7 @@ namespace tarea
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapGet("/holaMundo", () => "Hola Mundo!");
+          
             });
 
         }
